@@ -23,6 +23,7 @@
 
 .portada img {
     width: 100%;
+    height: 100vh;
     position: absolute;
     object-fit: cover;
 }
@@ -105,7 +106,6 @@ nav ul {
 }
 
 .boton {
-    position: absolute;
     border: none;
     background-color: #C19D53;
     padding: 25px 45px;
@@ -118,10 +118,7 @@ nav ul {
     border-radius: 10px;
 }
 
-button {
-    margin-left: 80px;
-    margin-top: 400px;
-}
+
 
 .boton:hover {
     background-color: #81652B;
@@ -138,8 +135,7 @@ button {
     flex-direction: row;
     list-style: none;
     gap: 20%;
-    margin-left: 80px;
-    margin-top: 31rem;
+    margin-top: 1rem;
 }
 
 .cloud {
